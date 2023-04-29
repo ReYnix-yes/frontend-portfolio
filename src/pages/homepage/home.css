@@ -1,0 +1,50 @@
+.home {
+}
+
+.aside__text {
+    position: relative;
+    font-family: 'VT323', monospace;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 30px;
+    font-size: 30px;
+    transition: ease-in 3s;
+}
+
+.home__photo {
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    width: 650px;
+    display: flex;
+    border-radius: 50px;
+    transition: ease-in 3s;
+    opacity: .5;
+}
+
+.stack {
+    width: auto;
+}
+
+.stack__title {
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.stack__skill {
+    
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'VT323', monospace;
+}
+
+.stack__skill:last-child {
+    margin-bottom: 30px;
+}
